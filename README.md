@@ -8,3 +8,6 @@ Welcome to my personal website repository! This platform showcases everything re
    ```bash
    git clone https://github.com/SunnyBibyan/sunnybibyan.github.io.git
    cd sunnybibyan.github.io
+2. Open index.html to view the website locally.
+## View ✌✨
+Visit https://sunnybibyan.github.io to view the live version of my website.
