@@ -8358,7 +8358,7 @@ h1, h2, h3, h4, h5,
       font-size: 16px;
       letter-spacing: .1em; }
     .ftco-navbar-light.scrolled .nav-link {
-      color: #000000 !important; }
+      color: #0c3346 !important; } /*#000000*/
       .ftco-navbar-light.scrolled .nav-link.active {
         color: #ffbd39 !important; }
     .ftco-navbar-light.scrolled.awake {
@@ -8462,7 +8462,7 @@ h1, h2, h3, h4, h5,
         bottom: 0;
         left: 0;
         right: 0;
-        background: #000000;
+        background: #0c3346; /*#000000*/
         opacity: 0; }
       .owl-carousel.home-slider .slider-item .slider-text {
         height: 750px;
@@ -8480,7 +8480,7 @@ h1, h2, h3, h4, h5,
             bottom: 0;
             left: 0;
             right: 0;
-            background: #000000;
+            background: #0c3346; /*#000000*/
             opacity: 0; }
           @media (max-width: 1199.98px) {
             .owl-carousel.home-slider .slider-item .slider-text .one-third {
@@ -8530,7 +8530,7 @@ h1, h2, h3, h4, h5,
                 padding-left: 45px;
                 padding-right: 3em; } }
         .owl-carousel.home-slider .slider-item .slider-text .subheading {
-          color: #000000;
+          color: #0c3346; /*#000000*/
           font-weight: 600;
           font-size: 14px;
           letter-spacing: 3px;
@@ -8598,7 +8598,7 @@ h1, h2, h3, h4, h5,
         .owl-carousel.home-slider .owl-nav .owl-next span:before {
           font-size: 20px;
           margin-top: 7px;
-          color: #000000; }
+          color: #0c3346; } /*#000000*/
       .owl-carousel.home-slider .owl-nav .owl-prev {
         top: 0 !important;
         right: 0 !important; }
@@ -8606,7 +8606,7 @@ h1, h2, h3, h4, h5,
           .owl-carousel.home-slider .owl-nav .owl-prev {
             right: 61px !important; } }
         .owl-carousel.home-slider .owl-nav .owl-prev:hover, .owl-carousel.home-slider .owl-nav .owl-prev:focus {
-          background: #000000 !important;
+          background: #0c3346 !important; /*#000000*/
           outline: none !important; }
           .owl-carousel.home-slider .owl-nav .owl-prev:hover span:before, .owl-carousel.home-slider .owl-nav .owl-prev:focus span:before {
             font-size: 20px;
@@ -8619,7 +8619,7 @@ h1, h2, h3, h4, h5,
           .owl-carousel.home-slider .owl-nav .owl-next {
             right: 0 !important; } }
         .owl-carousel.home-slider .owl-nav .owl-next:hover, .owl-carousel.home-slider .owl-nav .owl-next:focus {
-          background: #000000 !important;
+          background: #0c3346 !important; /*#000000*/
           outline: none !important; }
           .owl-carousel.home-slider .owl-nav .owl-next:hover span:before, .owl-carousel.home-slider .owl-nav .owl-next:focus span:before {
             font-size: 24px;
@@ -8657,7 +8657,7 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     content: '';
     opacity: 0;
-    background: #000000; }
+    background: #0c3346; } /*#000000*/
 
 .slider-text h1 {
   font-size: 48px;
@@ -8676,7 +8676,7 @@ h1, h2, h3, h4, h5,
   .slider-text p strong {
     font-weight: 700; }
     .slider-text p strong a {
-      color: #000000; }
+      color: #000000; } /*#000000*/
 
 .slider-text .breadcrumbs {
   font-size: 12px;
@@ -8729,11 +8729,11 @@ h1, h2, h3, h4, h5,
   .btn.btn-primary {
     background: #ffbd39;
     border: 1px solid #ffbd39 !important;
-    color: #000000 !important; }
+    color: #000000 !important; } /*#000000*/
     .btn.btn-primary:hover {
       border: 1px solid #ffbd39 !important;
       background: #ffbd39 !important;
-      color: #000000 !important; }
+      color: #000000 !important; } /*#000000*/
     .btn.btn-primary.btn-outline-primary {
       border: 2px solid #ffbd39 !important;
       background: transparent !important;
@@ -8761,9 +8761,9 @@ h1, h2, h3, h4, h5,
   .btn.btn-white {
     background: #fff !important;
     border: 1px solid #fff !important;
-    color: #000000 !important; }
+    color: #000000 !important; } /*#000000*/
     .btn.btn-white:hover {
-      border: 1px solid #000000;
+      border: 1px solid #000000; /*#000000*/
       background: #fff !important;
       color: #fff; }
     .btn.btn-white.btn-outline-white {
@@ -8881,9 +8881,9 @@ h1, h2, h3, h4, h5,
     .services-1:hover .icon i {
       color: #fff; }
     .services-1:hover h3 {
-      color: #000000; }
+      color: #000000; } /*#000000*/
       .services-1:hover h3:after {
-        background: #000000; }
+        background: #000000; } /*#000000*/
 
 .progress-wrap {
   width: 100%;
