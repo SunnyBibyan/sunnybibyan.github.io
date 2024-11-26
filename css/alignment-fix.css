@@ -1,0 +1,225 @@
+/* Alignment Fixes */
+
+/* Container Alignment */
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+}
+
+/* Section Spacing */
+.ftco-section {
+    padding: 6em 0;
+    position: relative;
+}
+
+/* Row Alignment */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/* Column Spacing */
+[class*="col-"] {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Project Cards */
+.project {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Resume Section */
+.resume-wrap {
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+/* Skills Section */
+.progress-wrap {
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+.contact-section .contact-info {
+    margin-bottom: 30px;
+}
+
+.contact-section .form-group {
+    margin-bottom: 1.5rem;
+}
+
+/* Navigation */
+.ftco-navbar-light {
+    padding: 15px 0;
+    width: 100%;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+/* Hero Section */
+.hero-wrap {
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+}
+
+.slider-text {
+    height: 100vh;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+/* Responsive Fixes */
+@media (max-width: 768px) {
+    .ftco-section {
+        padding: 4em 0;
+    }
+
+    .hero-wrap {
+        height: auto;
+        min-height: 500px;
+    }
+
+    .slider-text {
+        height: auto;
+        min-height: 500px;
+    }
+
+    .project-img {
+        height: 200px;
+    }
+}
+
+/* Grid System Fixes */
+.col-md-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .col-md-4,
+    .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/* Text Alignment */
+.text-center {
+    text-align: center !important;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+/* Flex Utilities */
+.d-flex {
+    display: flex !important;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+/* Margin and Padding Utilities */
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+/* Image Alignment */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* List Alignment */
+ul, ol {
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+}
+
+/* Button Alignment */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+}
+
+/* Form Element Alignment */
+.form-control {
+    width: 100%;
+    padding: 0.75rem;
+}
+
+/* Social Icons Alignment */
+.ftco-footer-social {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+/* Counter Section Alignment */
+.counter-wrap {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Section Heading Alignment */
+.heading-section {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+/* Animation Fixes */
+.ftco-animate {
+    opacity: 1;
+    visibility: visible;
+}
