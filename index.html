@@ -263,38 +263,20 @@
 									</div>
 								  </div>
 
-								<div class="skill-mf">
-									<p class="title-s">Skills</p>
-									<span>SQL</span> <span class="pull-right">95%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0"
-											aria-valuemax="100"></div>
+								<div class="skill-mf" >
+									<p class="title-s" style="color: #fff;  font-size: 16px">Skills</p>
+									<div class="skill-buttons">
+									    <div >
+											<div style="display: flex; gap: 15px">
+											  <span>SQL,</span>
+											  <span>Power BI,</span>
+											  <span>Microsoft Excel,</span>
+											  <span>Python,</span>
+											  <span>Statistics</span>
+											</div>
+										</div>							  
 									</div>
-									
-									<span>PYTHON</span> <span class="pull-right">85%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>Data Visualization</span> <span class="pull-right">90%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>Statistical Analysis</span> <span class="pull-right">85%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>Machine Learning</span> <span class="pull-right">80%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-								</div>
+								</div>										
 							</div>
 						</div>
 					</div>
@@ -356,7 +338,7 @@
 		</div>
 		<br>
 		
-		<div class="row">
+		<!-- <div class="row">
 				<div class="col-md-6">
 					<div class="resume-wrap ftco-animate">
 						<span class="date">2019-2022</span>
@@ -396,7 +378,85 @@
 					</div>
 
 				</div>
+			</div> -->
+			<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2019-2022</span>
+						<h2>Failure Analysis Engineer</h2>
+						<span class="position">Samsung India Electronics Pvt Ltd</span>
+						<p class="mt-4">
+							Samsung India Electronics Limited, Noida, is an electrical/electronic manufacturing company in the appliances, electrical, and electronics manufacturing industry. 
+						</p>
+						<div class="content-truncate" id="samsung-content">
+							<ul>
+								<li>Conducted data analysis on defective motherboards using Excel and SQL, reducing defect rates by 30% and improving production efficiency.</li>
+								<li>Designed Power BI dashboards for data visualization, tracking KPIs, defect trends, and process metrics to support data-driven decision-making.</li>
+								<li>Performed root cause analysis with statistical methods, boosting production throughput by 15%.</li>
+								<li>Employed Advanced Excel functions (VLOOKUP, Pivot Tables) to elevate data analysis and automate report generation,
+										reducing manual workload by 2 hours daily and enhancing workflow efficiency by 40%.</li>
+								<li>Analyzed RF testing data to optimize processes, improving testing throughput by 15%.</li>
+								<li>Applied predictive analytics to forecast failure rates, providing actionable insights for proactive process improvements.</li>
+								<li>Monitored and analyzed performance metrics (test yields, defect rates) to recommend corrective actions, enhancing overall efficiency.</li>
+							</ul>
+						</div>
+						<button class="read-more-btn" onclick="toggleContent('samsung-content', this)">Read More</button>
+					</div>
+				</div>
+			
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2017-2019</span>
+						<h2>TRC Technican</h2>
+						<span class="position">Vivo Mobile India Private Ltd</span>
+						<p class="mt-4">Vivo Mobile India Pvt. Ltd., a leading mobile manufacturing company, operates within the Appliances, Electrical, and Electronics Manufacturing industry. The company is based in Greater Noida, Uttar Pradesh, and employs between 5,000 and 10,000 people.</p>
+						<div class="content-truncate" id="vivo-content">
+							<ul>
+								<li>Reduced technical issues in production by 40% through detailed analysis and customer-focused problem-solving.</li>
+								<li>Achieved a 35% decrease in smartphone repair times by specializing in both functional hardware and software components.</li>
+								<li>Contributed to a 50% reduction in scrap and rejection rates, elevating product quality and customer satisfaction.</li>
+								<li>Improved Inventory Management: Implemented a systematic approach to track repair parts and inventory levels, reducing parts shortages and excess inventory by 10%, ensuring that repair operations ran smoothly and efficiently.</li>
+							</ul>
+						</div>
+						<button class="read-more-btn" onclick="toggleContent('vivo-content', this)">Read More</button>
+					</div>
+				</div>
 			</div>
+			
+			<style>
+				.content-truncate {
+					max-height: 100px;
+					overflow: hidden;
+					transition: max-height 0.3s ease;
+				}
+				.content-expanded {
+					max-height: 1000px; /* Adjust this value based on your content */
+				}
+				.read-more-btn {
+					background-color: #3b526944;
+					color: white;
+					border: none;
+					padding: 5px 10px;
+					margin-top: 10px;
+					cursor: pointer;
+					border-radius: 5px;
+				}
+				.read-more-btn:hover {
+					background-color: #3b526944;
+				}
+			</style>
+			
+			<script>
+				function toggleContent(contentId, button) {
+					var content = document.getElementById(contentId);
+					content.classList.toggle('content-expanded');
+					if (content.classList.contains('content-expanded')) {
+						button.textContent = 'Read Less';
+					} else {
+						button.textContent = 'Read More';
+					}
+				}
+			</script>
 
 		<br>
 		<br>
